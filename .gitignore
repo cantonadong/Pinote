@@ -1,0 +1,17 @@
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+
+# Local emulator verification captures
+/pinote-*.png
+/swipe-*.png
+/smooth-*.png
+/line-*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+

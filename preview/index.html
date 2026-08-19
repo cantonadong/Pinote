@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stick UI Preview</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="visual.css">
+</head>
+<body>
+  <aside class="controls" aria-label="预览控制器">
+    <strong>Stick Preview</strong>
+    <label>场景 <select id="scene"><option value="editor">编辑页</option><option value="notification">通知栏</option></select></label>
+    <label>状态 <select id="state"><option value="normal">Normal</option><option value="loading">Loading</option><option value="empty">Empty</option><option value="error">Error</option><option value="edge">Edge case</option></select></label>
+    <button id="replay">重播删除演示</button>
+    <small>Todo 可点击；内容块可向左或向右拖动删除。</small>
+  </aside>
+  <main class="stage">
+    <section class="phone" aria-label="应用预览">
+      <div class="status"><span>9:41</span><span>● ◒ ▰</span></div>
+      <div class="app" id="app"></div>
+      <div class="snackbar" id="snackbar" role="status"><span id="snackText"></span><button id="undo">撤销</button></div>
+      <div class="home-indicator"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
