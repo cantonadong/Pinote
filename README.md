@@ -1,4 +1,5 @@
 # Pinote
+<img width="1080" height="2376" alt="6a60e000835aea86ebb05e4248943243" src="https://github.com/user-attachments/assets/16a63b74-6260-431e-a2b8-24b984533a40" />
 
 Pinote 是一个轻量、离线优先的 Android 常驻提醒工具。将一条文本或 Todo 清单固定到系统通知栏，让重要事项无需打开 App 也能随时看到。
 
