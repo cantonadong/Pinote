@@ -8,6 +8,7 @@ local.properties
 # Local Android signing keys (never commit private keys)
 /app/debug.keystore
 /Pinote-signing-key-backup/
+/dev规范.txt
 
 # Local emulator verification captures
 /pinote-*.png
