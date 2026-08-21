@@ -5,6 +5,10 @@ local.properties
 *.iml
 .idea/
 
+# Local Android signing keys (never commit private keys)
+/app/debug.keystore
+/Pinote-signing-key-backup/
+
 # Local emulator verification captures
 /pinote-*.png
 /swipe-*.png
@@ -14,4 +18,3 @@ local.properties
 # OS files
 .DS_Store
 Thumbs.db
-
