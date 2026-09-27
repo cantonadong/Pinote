@@ -9,7 +9,7 @@ android { namespace 'com.cantonadong.pinote'; compileSdk 36
             keyPassword 'android'
         }
     }
-    defaultConfig { applicationId 'com.cantonadong.pinote'; minSdk 26; targetSdk 36; versionCode 7; versionName '1.1.1' }
+    defaultConfig { applicationId 'com.cantonadong.pinote'; minSdk 26; targetSdk 36; versionCode 8; versionName '1.2.0' }
     buildTypes {
         debug { signingConfig signingConfigs.debug }
     }
